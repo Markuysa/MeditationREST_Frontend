@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .avatar {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .username {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .email {
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 1rem;
+  }
+  
+  .role {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .favorites {
+    margin-top: 3rem;
+  }
+  
+  .favorites h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .favorites p {
+    margin-top: 1rem;
+    font-style: italic;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    .profile {
+      margin-right: 5rem;
+    }
+  
+    .favorites {
+      margin-left: 5rem;
+    }
+  }
